@@ -19,7 +19,7 @@ import UIKit
 extension EditorViewController {
     func setupToolbar() {
         let toolbarView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 56))
-        toolbarView.backgroundColor = .systemGray6
+        toolbarView.backgroundColor = .green
 
         let scrollView = setupScrollView(to: toolbarView)
         setupAllButtons()

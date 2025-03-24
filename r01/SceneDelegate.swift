@@ -12,7 +12,7 @@
 //  under the License.
 
 import UIKit
-
+//
 enum EditorState {
     case scrollable
     case notScrollable
@@ -22,8 +22,8 @@ enum EditorState {
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
-    // Edit this property to test the different implementations of the editor
-    var editorState: EditorState = .fixedSize
+//    // Edit this property to test the different implementations of the editor
+    var editorState: EditorState = .notScrollable
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
@@ -40,6 +40,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             viewController = FixedSizeEditorViewController()
         }
 
+//        viewController = FixedSizeEditorViewController()
         window?.rootViewController = UINavigationController(rootViewController: viewController)
         window?.makeKeyAndVisible()
     }

@@ -7,6 +7,7 @@
 
 import UIKit
 import InfomaniakRichHTMLEditor
+import Down
 
 class EditorViewController: UIViewController {
     
@@ -22,6 +23,17 @@ class EditorViewController: UIViewController {
         view.backgroundColor = .systemBackground
         
         setupEditor()
+        setupToolbar()
+       
+        let markdown = "**Hello, World!** This is a test."
+        do {
+            let html = try Down(markdownString: markdown).toHTML()
+            print(html)  // Outputs: <p><strong>Hello, World!</strong> This is a test.</p>
+            editor.html = html
+        } catch {
+            print("Conversion failed: \(error)")
+        }
+        
     }
 
     func setupEditor() {
@@ -36,5 +48,7 @@ class EditorViewController: UIViewController {
         editor.translatesAutoresizingMaskIntoConstraints = false
         editor.delegate = self
     }
+    
+   
 }
 

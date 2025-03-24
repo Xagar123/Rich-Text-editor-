@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B1D958D2D916BC5004F1A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D958C2D916BC5004F1A82 /* AppDelegate.swift */; };
-		1B1D958F2D916BC5004F1A82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D958E2D916BC5004F1A82 /* SceneDelegate.swift */; };
-		1B1D95912D916BC5004F1A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95902D916BC5004F1A82 /* ViewController.swift */; };
+		1B1D95912D916BC5004F1A82 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95902D916BC5004F1A82 /* EditorViewController.swift */; };
 		1B1D95942D916BC5004F1A82 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1B1D95932D916BC5004F1A82 /* Base */; };
 		1B1D95962D916BC6004F1A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1D95952D916BC6004F1A82 /* Assets.xcassets */; };
 		1B1D95992D916BC6004F1A82 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1B1D95982D916BC6004F1A82 /* Base */; };
+		1B1D95A32D916D15004F1A82 /* InfomaniakRichHTMLEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 1B1D95A22D916D15004F1A82 /* InfomaniakRichHTMLEditor */; };
+		1B1D95A62D916DE7004F1A82 /* ToolbarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95A42D916DE7004F1A82 /* ToolbarAction.swift */; };
+		1B1D95A92D916F18004F1A82 /* EditorViewController+RichEditorViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95A72D916F18004F1A82 /* EditorViewController+RichEditorViewDelegate.swift */; };
+		1B1D95AA2D916F18004F1A82 /* EditorViewController+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95A82D916F18004F1A82 /* EditorViewController+Toolbar.swift */; };
+		1B1D95AD2D916F7B004F1A82 /* UIDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95AB2D916F7B004F1A82 /* UIDivider.swift */; };
+		1B1D95B12D916FFB004F1A82 /* FixedSizeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95AE2D916FFB004F1A82 /* FixedSizeEditorViewController.swift */; };
+		1B1D95B22D916FFB004F1A82 /* NotScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95AF2D916FFB004F1A82 /* NotScrollableViewController.swift */; };
+		1B1D95B32D916FFB004F1A82 /* ScrollableEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95B02D916FFB004F1A82 /* ScrollableEditorViewController.swift */; };
+		1B1D95B62D9171D5004F1A82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95B42D9171D5004F1A82 /* SceneDelegate.swift */; };
+		1B1D95B72D9171D5004F1A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D95B52D9171D5004F1A82 /* AppDelegate.swift */; };
+		A946B986529AEF744A6C8EB1 /* Pods_r01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C341D34652CDFE3B4169233 /* Pods_r01.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B1D95892D916BC5004F1A82 /* r01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = r01.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B1D958C2D916BC5004F1A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B1D958E2D916BC5004F1A82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B1D95902D916BC5004F1A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B1D95902D916BC5004F1A82 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 		1B1D95932D916BC5004F1A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B1D95952D916BC6004F1A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1D95982D916BC6004F1A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B1D959A2D916BC6004F1A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1D95A42D916DE7004F1A82 /* ToolbarAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarAction.swift; sourceTree = "<group>"; };
+		1B1D95A72D916F18004F1A82 /* EditorViewController+RichEditorViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditorViewController+RichEditorViewDelegate.swift"; sourceTree = "<group>"; };
+		1B1D95A82D916F18004F1A82 /* EditorViewController+Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditorViewController+Toolbar.swift"; sourceTree = "<group>"; };
+		1B1D95AB2D916F7B004F1A82 /* UIDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDivider.swift; sourceTree = "<group>"; };
+		1B1D95AE2D916FFB004F1A82 /* FixedSizeEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedSizeEditorViewController.swift; sourceTree = "<group>"; };
+		1B1D95AF2D916FFB004F1A82 /* NotScrollableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotScrollableViewController.swift; sourceTree = "<group>"; };
+		1B1D95B02D916FFB004F1A82 /* ScrollableEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableEditorViewController.swift; sourceTree = "<group>"; };
+		1B1D95B42D9171D5004F1A82 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B1D95B52D9171D5004F1A82 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C341D34652CDFE3B4169233 /* Pods_r01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_r01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5551ADEDD180E11245CCEC5F /* Pods-r01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r01.debug.xcconfig"; path = "Target Support Files/Pods-r01/Pods-r01.debug.xcconfig"; sourceTree = "<group>"; };
+		96628FC49FFB825876B73C34 /* Pods-r01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-r01.release.xcconfig"; path = "Target Support Files/Pods-r01/Pods-r01.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1D95A32D916D15004F1A82 /* InfomaniakRichHTMLEditor in Frameworks */,
+				A946B986529AEF744A6C8EB1 /* Pods_r01.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				1B1D958B2D916BC5004F1A82 /* r01 */,
 				1B1D958A2D916BC5004F1A82 /* Products */,
+				20CAE1563C616AC09B5B844E /* Pods */,
+				317FE6386CAE3100145E34F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,55 @@
 		1B1D958B2D916BC5004F1A82 /* r01 */ = {
 			isa = PBXGroup;
 			children = (
-				1B1D958C2D916BC5004F1A82 /* AppDelegate.swift */,
-				1B1D958E2D916BC5004F1A82 /* SceneDelegate.swift */,
-				1B1D95902D916BC5004F1A82 /* ViewController.swift */,
+				1B1D95B52D9171D5004F1A82 /* AppDelegate.swift */,
+				1B1D95B42D9171D5004F1A82 /* SceneDelegate.swift */,
+				1B1D95A52D916DE7004F1A82 /* Model */,
+				1B1D95902D916BC5004F1A82 /* EditorViewController.swift */,
+				1B1D95A72D916F18004F1A82 /* EditorViewController+RichEditorViewDelegate.swift */,
+				1B1D95A82D916F18004F1A82 /* EditorViewController+Toolbar.swift */,
+				1B1D95AE2D916FFB004F1A82 /* FixedSizeEditorViewController.swift */,
+				1B1D95AF2D916FFB004F1A82 /* NotScrollableViewController.swift */,
+				1B1D95B02D916FFB004F1A82 /* ScrollableEditorViewController.swift */,
+				1B1D95AC2D916F7B004F1A82 /* Views */,
 				1B1D95922D916BC5004F1A82 /* Main.storyboard */,
 				1B1D95952D916BC6004F1A82 /* Assets.xcassets */,
 				1B1D95972D916BC6004F1A82 /* LaunchScreen.storyboard */,
 				1B1D959A2D916BC6004F1A82 /* Info.plist */,
 			);
 			path = r01;
+			sourceTree = "<group>";
+		};
+		1B1D95A52D916DE7004F1A82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B1D95A42D916DE7004F1A82 /* ToolbarAction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B1D95AC2D916F7B004F1A82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B1D95AB2D916F7B004F1A82 /* UIDivider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20CAE1563C616AC09B5B844E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5551ADEDD180E11245CCEC5F /* Pods-r01.debug.xcconfig */,
+				96628FC49FFB825876B73C34 /* Pods-r01.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		317FE6386CAE3100145E34F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C341D34652CDFE3B4169233 /* Pods_r01.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +137,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B1D959D2D916BC6004F1A82 /* Build configuration list for PBXNativeTarget "r01" */;
 			buildPhases = (
+				FDF30927D5F5E4C93C2C9A02 /* [CP] Check Pods Manifest.lock */,
 				1B1D95852D916BC5004F1A82 /* Sources */,
 				1B1D95862D916BC5004F1A82 /* Frameworks */,
 				1B1D95872D916BC5004F1A82 /* Resources */,
+				C92D7555CB6F7857FA5B890F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = r01;
+			packageProductDependencies = (
+				1B1D95A22D916D15004F1A82 /* InfomaniakRichHTMLEditor */,
+			);
 			productName = r01;
 			productReference = 1B1D95892D916BC5004F1A82 /* r01.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 1B1D95802D916BC5004F1A82;
+			packageReferences = (
+				1B1D95A12D916D15004F1A82 /* XCRemoteSwiftPackageReference "swift-rich-html-editor" */,
+			);
 			productRefGroup = 1B1D958A2D916BC5004F1A82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +204,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C92D7555CB6F7857FA5B890F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-r01/Pods-r01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-r01/Pods-r01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-r01/Pods-r01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF30927D5F5E4C93C2C9A02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-r01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B1D95852D916BC5004F1A82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1D95912D916BC5004F1A82 /* ViewController.swift in Sources */,
-				1B1D958D2D916BC5004F1A82 /* AppDelegate.swift in Sources */,
-				1B1D958F2D916BC5004F1A82 /* SceneDelegate.swift in Sources */,
+				1B1D95912D916BC5004F1A82 /* EditorViewController.swift in Sources */,
+				1B1D95A92D916F18004F1A82 /* EditorViewController+RichEditorViewDelegate.swift in Sources */,
+				1B1D95B62D9171D5004F1A82 /* SceneDelegate.swift in Sources */,
+				1B1D95B32D916FFB004F1A82 /* ScrollableEditorViewController.swift in Sources */,
+				1B1D95AD2D916F7B004F1A82 /* UIDivider.swift in Sources */,
+				1B1D95B22D916FFB004F1A82 /* NotScrollableViewController.swift in Sources */,
+				1B1D95A62D916DE7004F1A82 /* ToolbarAction.swift in Sources */,
+				1B1D95AA2D916F18004F1A82 /* EditorViewController+Toolbar.swift in Sources */,
+				1B1D95B72D9171D5004F1A82 /* AppDelegate.swift in Sources */,
+				1B1D95B12D916FFB004F1A82 /* FixedSizeEditorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +323,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +386,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +407,7 @@
 		};
 		1B1D959E2D916BC6004F1A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5551ADEDD180E11245CCEC5F /* Pods-r01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +435,7 @@
 		};
 		1B1D959F2D916BC6004F1A82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96628FC49FFB825876B73C34 /* Pods-r01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,6 +483,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B1D95A12D916D15004F1A82 /* XCRemoteSwiftPackageReference "swift-rich-html-editor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Infomaniak/swift-rich-html-editor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B1D95A22D916D15004F1A82 /* InfomaniakRichHTMLEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B1D95A12D916D15004F1A82 /* XCRemoteSwiftPackageReference "swift-rich-html-editor" */;
+			productName = InfomaniakRichHTMLEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B1D95812D916BC5004F1A82 /* Project object */;
 }
